@@ -85,22 +85,24 @@
             // 
             // button5
             // 
+            this.button5.BackColor = System.Drawing.SystemColors.HotTrack;
             this.button5.Location = new System.Drawing.Point(80, 340);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(129, 48);
             this.button5.TabIndex = 4;
             this.button5.Text = "В степень";
-            this.button5.UseVisualStyleBackColor = true;
+            this.button5.UseVisualStyleBackColor = false;
             this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
             // button6
             // 
+            this.button6.BackColor = System.Drawing.SystemColors.HotTrack;
             this.button6.Location = new System.Drawing.Point(283, 340);
             this.button6.Name = "button6";
             this.button6.Size = new System.Drawing.Size(129, 48);
             this.button6.TabIndex = 5;
             this.button6.Text = "Корень";
-            this.button6.UseVisualStyleBackColor = true;
+            this.button6.UseVisualStyleBackColor = false;
             this.button6.Click += new System.EventHandler(this.button6_Click);
             // 
             // textBox1
